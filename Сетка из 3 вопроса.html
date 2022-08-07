@@ -14,21 +14,43 @@
 
         .c2{
             background-color: blueviolet;
-            height: 70px;
+            height: 100px;
         }
         .c3{
-            
+            background-color: blueviolet;
+            height: 300px;
+        }
+
+        .c4{
+            background-color: blueviolet;
+            height: 150px;
+        }
+
+        .c5{
+            background-color: blueviolet;
+            height: 150px;
         }
     </style>
 </head>
 <body>
-    <div class="container-fluid"> 
-        <div class="row"> 
-        <div class="col-8 col-xl-8 c1">.col-12 .col-md-8</div>
-	    <div class="col-4 col-md-4 c2">.col-6 .col-md-4</div>
-        <div class="col-3 col-md-4 c3">.col-6 .col-md-4</div>
-        </div> 
-     </div>
+    <div class="container">
+        <div class="row g-2">
+            <div class="col-6 bgc gallery d-flex align-items-center justify-content-center c1 p-3 border ">Gallery</div>
+            <div class="col-6 bgc">
+                <div class="row">
+                    <div class="col-12 bgc tittle d-flex align-items-center justify-content-center c2  p-3 border">Tittle</div>
+                    <div class="col-12 bgc bbox d-flex align-items-center justify-content-center c3  p-3 border">Buy Box</div>
+                </div>
+            </div>
+        </div>
+        <div class="row down">
+            <div class="col bgc description d-flex align-items-center justify-content-center c4 p-3 border">Description</div>
+        </div>
+        <div class="row down">
+            <div class="col bgc related d-flex align-items-center justify-content-center c5 p-3 border">Related</div>
+        </div>
+    </div>
+    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
